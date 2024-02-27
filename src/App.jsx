@@ -2,7 +2,6 @@ import "./App.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import UserLogin from "./pages/user-login-page/UserLogin";
 import ForgotPassword from "./pages/forgot-password-page/ForgotPassword";
-import Userdashboard from "./pages/user-dashboard/Userdashboard";
 import EmailValidation from "./pages/emailvalidation/EmailValidation";
 import Createmember from "./pages/creatememember/Createmember";
 
@@ -18,10 +17,7 @@ const router = createBrowserRouter([
     element: <ForgotPassword />,
   },
 
-  {
-    path: "/user-dashboard",
-    element: <Userdashboard />,
-  },
+
   {
     path: "/email-validation",
     element: <EmailValidation />,
