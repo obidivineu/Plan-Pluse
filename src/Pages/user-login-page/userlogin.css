@@ -1,0 +1,716 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.loginbodypage {
+    height: 100vh;
+    width: 100vw;
+    background-color: #D9D9D9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap')
+}
+
+
+.loginpage {
+    height: 90%;
+    width: 30%;
+    background-color: #FDFDF7;
+    align-items: center;
+    justify-content: center;
+    /* display: flex; */
+}
+
+.image {
+    /* height: 80px; */
+    /* width: 60px; */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+
+.inputDiv {
+    height: 50%;
+    /* background-color: green; */
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin-top: 20px;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.textsign {
+    display: flex;
+    justify-content: center;
+    /* font-family: ;   */
+    margin-top: 10px;
+}
+
+.input-data {
+    height: 30%;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    /* margin-bottom: -20px; */
+    padding-left: 10px;
+    outline: none;
+    font-size: 16px;
+    background-color: white;
+    border: 0.1px solid;
+    border-radius: 9px;
+}
+
+.input-data:hover {
+
+    /* border: 1px solid #FF595E; */
+    background-color: #f8f8f8;
+
+}
+
+.detail {
+    height: 60%;
+    width: 90%;
+    /* background-color: red; */
+    display: flex;
+    gap: 10px;
+    padding-left: 10px;
+    /* align-items: center; */
+    justify-content: center;
+    flex-direction: column;
+}
+
+.span-text {
+    height: 10%;
+    width: 20%;
+    /* background-color: darkblue; */
+    /* display: flex */
+
+}
+
+.remeber-text {
+    height: 10%;
+    width: 80%;
+    /* background-color: red; */
+    margin-top: 10px;
+    display: flex;
+    /* gap: 2px; */
+    align-items: flex-start;
+    justify-content: flex-start;
+    /* padding-right: 20%; */
+}
+
+.checkbox {
+    height: 80%;
+    width: 10%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    margin-top: 3px;
+    cursor: pointer;
+}
+
+.remindme {
+    padding-right: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* cursor: pointer; */
+    margin-top: 7px;
+}
+
+.forgotpass {
+    padding-right: 35%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin-top: 10px;
+    color: #2400FF;
+}
+
+.loginbutton {
+    height: 48px;
+    width: 309px;
+    background-color: #d66468;
+    border: none;
+    cursor: pointer;
+    font-size: 19px;
+    border-radius: 5px;
+    color: #FDFDF7;
+}
+
+.loginbutton:hover {
+    border: 1px solid #FF595E;
+    background-color: #FF595E;
+    transform: scale(1.1);
+
+}
+
+.donthaveaccount {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imagepage {
+    height: 90%;
+    width: 30%;
+    background-image: url(C:\Users\USER\Desktop\planpulse-original\src\assets\welcome2.png);
+    background-color: #282828;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.welcomtext {
+    font-size: 40px;
+    /* margin-bottom: 10%; */
+    color: #FDFDF7;
+}
+
+.PlanPulse {
+    /* margin-bottom: 70%; */
+    color: #FDFDF7;
+    margin-top: 15px;
+    font-size: 100%;
+    align-items: center;
+}
+
+@media screen and (max-width: 834px) {
+    .imagepage {
+        display: none;
+    }
+
+    .input-data {
+        font-size: 30px;
+        height: 90pc;
+    }
+
+    .loginbutton {
+        height: 90px;
+        font-size: 30px;
+        width: 30pc;
+        border-radius: 20px;
+    }
+
+    .remeber-text {
+        margin-top: 20px;
+        padding-top: 10px;
+        font-size: 40px;
+        /* background-color: tan; */
+    }
+
+    .donthaveaccount {
+        font-size: 30px;
+        gap: 50px;
+    }
+
+    .forgotpass {
+        font-size: 40px;
+    }
+
+    .loginpage {
+        height: 100%;
+        width: 100%;
+    }
+
+    .textsign {
+        font-size: 40px;
+    }
+
+    .span-text {
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+
+    .remeber-text {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .imagepage {
+        display: none;
+    }
+
+    .input-data {
+        font-size: 30px;
+        height: 90px;
+    }
+
+    .loginpage {
+        width: 100vw;
+        height: 100%;
+        border-radius: 10px, ;
+    }
+
+    .inputDiv {
+        height: 60%;
+    }
+
+    .textsign {
+        font-size: 40px;
+    }
+
+    .span-text {
+        font-size: 40px;
+        margin-bottom: 20px;
+    }
+
+    .remeber-text {
+        font-size: 30px;
+        padding-top: 10px;
+        /* background-color: greenyellow; */
+    }
+
+    .forgotpass {
+        font-size: 30px;
+        padding-top: 10px;
+    }
+
+    .loginbutton {
+        height: 80px;
+        margin-top: -30px;
+        width: 80%;
+        font-size: 40px;
+        border-radius: 10px;
+    }
+
+    .donthaveaccount {
+        font-size: 30px;
+        padding-top: 10px;
+        gap: 20px;
+    }
+}
+
+@media screen and (max-width: 428px) {
+    .imagepage {
+        display: none;
+    }
+
+    .loginpage {
+        width: 95%;
+        height: 97%;
+        border-radius: 10px, ;
+    }
+
+    .loginbodypage {
+        height: 100vh;
+        width: 100%;
+    }
+
+    .textsign {
+        font-size: 20px;
+    }
+
+    .remeber-text {
+        /* gap: 5px; */
+        /* margin-top: -5px; */
+        /* width: 5%; */
+        /* margin-right: 120px; */
+        /* width: 20%; */
+        height: 10%;
+        font-size: 22px;
+        /* width: 5px; */
+        /* background-color: blue; */
+    }
+
+    .forgotpass {
+        /* gap: 50px; */
+        height: 10%;
+        /* margin-bottom: -3px; */
+        /* background-color: navajowhite; */
+        /* margin-right: 100px; */
+        font-size: 20px;
+
+    }
+
+    .input-data {
+        height: 50px;
+        outline: none;
+        font-size: 20px;
+        border: 0.1px solid;
+    }
+
+
+
+    .loginbutton {
+        width: 300px;
+        border-radius: 10px;
+        height: 60px;
+        outline: none;
+        font-size: 20px;
+        margin-bottom: 30px;
+    }
+
+
+    .donthaveaccount {
+        gap: 50px;
+        margin-top: -30px;
+        font-size: 20px;
+    }
+
+    .textsign {
+        padding-bottom: 10px;
+    }
+
+    .remindme {
+        width: 100%;
+        display: flex;
+        height: 100%;
+        margin-top: -0.10px;
+        justify-content: space-between;
+    }
+
+    .span-text {
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    .detail {
+        margin-top: -90px;
+        /* background-color: lawngreen; */
+    }
+
+    .textsign {
+        font-size: 20px;
+    }
+
+
+
+    .input-data {
+        height: 50px;
+        outline: none;
+        font-size: 20px;
+        border: 0.1px solid;
+    }
+
+    .loginbutton {
+        width: 200px;
+        border-radius: 10px;
+        height: 60px;
+        outline: none;
+        /* gap: 10px; */
+        font-size: 20px;
+        margin-top: -90pc;
+        /* margin-bottom: 30px; */
+    }
+
+    .donthaveaccount {
+        gap: 50px;
+        margin-top: -40px;
+        font-size: 20px;
+    }
+
+    .span-text {
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 393px) {
+
+    .loginpage {
+        width: 90%;
+        height: 97%;
+        border-radius: 10px;
+    }
+
+    .textsign {
+        font-size: 20px;
+    }
+
+    .loginbodypage {
+        height: 100vh;
+        width: 100%;
+        /* gap: 10px; */
+    }
+
+    .inputDiv {
+        gap: 10px;
+        margin-top: -10px;
+    }
+
+    .remeber-text {
+        font-size: 20px;
+        margin-top: 10px;
+        padding-top: 10px;
+
+    }
+
+    .image {
+        /* height: 20%; */
+        /* background-color: blue; */
+        margin-bottom: 20px;
+    }
+
+    .input-data {
+        height: 50px;
+        outline: none;
+        border: 0.1px solid;
+    }
+
+    .detail {
+        height: 60%;
+        /* background-color: olive; */
+        /* margin-bottom: 10%; */
+        margin-top: -25px;
+    }
+
+    .loginbutton {
+        width: 50%;
+        border-radius: 10px;
+        height: 50px;
+        margin-top: -100pc;
+        border: none;
+        outline: none;
+        /* margin-top: 20px; */
+        /* margin-bottom: 50px; */
+        /* padding-bottom: 10px; */
+    }
+
+    .forgotpass {
+        /* gap: 50px; */
+        height: 10%;
+        margin-bottom: 5px;
+        /* margin-bottom: -3px; */
+        /* background-color: navajowhite; */
+        /* margin-right: 100px; */
+        /* font-size: 20px; */
+
+    }
+
+    .donthaveaccount {
+        gap: 50px;
+        margin-top: -30px;
+        font-size: 15px;
+    }
+
+    .span-text {
+        font-size: 25px;
+    }
+
+    .text {
+        margin-top: -30px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+
+    .loginpage {
+        width: 99%;
+        height: 100vh;
+        border-radius: 10px;
+        /* background-color: #FF595E; */
+    }
+
+
+
+    .textsign {
+        font-size: 15px;
+    }
+
+    .span-text {
+        font-size: 20px;
+    }
+
+    .loginbodypage {
+        height: 100vh;
+        width: 100%;
+        /* gap: 10px; */
+
+    }
+
+    .loginpage {
+        height: 90%;
+        width: 100%;
+        /* background-color: paleturquoise; */
+    }
+
+    .inputDiv {
+        gap: 10px;
+        width: 98%;
+        height: 50%;
+        /* border-radius: 10px; */
+        /* background-color: #FF595E; */
+    }
+
+    .remeber-text {
+
+        font-size: 18px;
+        margin-top: -30px;
+        padding-top: 15px;
+        margin-right: 15px;
+
+
+    }
+
+
+    .input-data {
+        height: 100%;
+        width: 100%;
+        outline: none;
+        border: 0.1px solid;
+    }
+
+    .detail {
+        height: 90%;
+        /* background-color: olive; */
+        margin-bottom: 10%;
+        margin-top: -30px;
+    }
+
+    .loginbutton {
+        width: 40%;
+        border-radius: 10px;
+        height: 50px;
+        margin-top: -950px;
+        border: none;
+        outline: none;
+        /* margin-top: 20px; */
+        /* margin-bottom: 50px; */
+        /* padding-bottom: 10px; */
+    }
+
+
+    .donthaveaccount {
+        gap: 50px;
+        margin-top: -30px;
+        font-size: 15px;
+    }
+
+    .image {
+        /* height: 20%; */
+        /* background-color: blue; */
+        margin-bottom: 20px;
+    }
+
+
+    .text {
+        /* height: 10%; */
+        /* margin-top: -20px; */
+        margin-bottom: -10px;
+        /* background-color: red; */
+    }
+}
+
+@media screen and (max-width: 361px) {
+
+    .loginpage {
+        width: 90%;
+        height: 97%;
+        border-radius: 10px;
+    }
+
+
+
+    .loginbodypage {
+        height: 100vh;
+        width: 100%;
+        /* gap: 10px; */
+    }
+
+    .span-text {
+        font-size: 25px;
+    }
+
+    .inputDiv {
+        gap: 10px;
+    }
+
+    .Remeber-text {
+
+        margin-top: 10px;
+
+    }
+
+
+
+    .input-data {
+        height: 50px;
+        outline: none;
+        border: 0.1px solid;
+    }
+
+    .detail {
+        height: 60%;
+        /* background-color: olive; */
+        /* margin-bottom: 10%; */
+        margin-top: -25px;
+    }
+
+    .loginbutton {
+        width: 260px;
+        border-radius: 10px;
+        height: 50px;
+        margin-top: -200px;
+        border: none;
+        outline: none;
+        /* margin-top: 20px; */
+        /* margin-bottom: 50px; */
+        /* padding-bottom: 10px; */
+    }
+
+    .donthaveaccount {
+        gap: 30px;
+    }
+
+    .text {
+        margin-top: -30px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .loginbodypage {
+        height: 100vh;
+        width: 100%;
+        /* background-color: red; */
+    }
+
+    .span-text {
+        font-size: 25px;
+    }
+
+    .loginpage {
+        height: 100%;
+        width: 100%;
+    }
+
+    .textsign {
+        margin-top: -20px;
+        /* background-color: red; */
+        font-size: 18px;
+    }
+
+    .inputDiv {
+        /* margin-top: -2px; */
+        /* background-color: green; */
+        width: 100%;
+        height: 90%;
+    }
+
+    .detail {
+        /* height: 90%; */
+        margin-top: -40px;
+        /* background-color: purple; */
+    }
+
+    .remeber-text {
+        padding-bottom: 20px;
+    }
+
+    .loginbutton {
+        margin-top: -30%;
+    }
+
+    .forgotpass {
+        margin-top: 10px;
+    }
+}
