@@ -5,9 +5,7 @@ import "./forgotpassword.css"
 const forgotPassword = () => {
   return (
     <div className='forgotbodyPage'>
-     <div className='imageforgot'>
-
-     </div>
+   
      <div className='forgotpage'><div className='divtext'>
        <p className='forgotext'>FORGOT PASSWORD ?</p>
        </div>
