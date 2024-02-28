@@ -1,12 +1,17 @@
 import React from 'react';
 import logo from "../../../assets/gymlogo.png"
 import "./Header.css"
+import { useNavigate } from 'react-router-dom';
+
+
 const Header = () => {
+  const nav = useNavigate()
+
+
   return (
-    <div
-    className='header'
-    >
-        <div className="logo">
+
+    <div className='header'>
+      <div className="logo">
         <img src={logo} alt="logo" />
       </div>
       <div className="headertext">
@@ -17,7 +22,9 @@ const Header = () => {
         <p>SERVICE</p>
       </div>
       <div className="started">
-        <button className="get">GET STARTED</button>
+        <button className="get" onClick={()=>{
+          nav('/user-login')
+        }}>GET STARTED</button>
       </div>
     </div>
 
