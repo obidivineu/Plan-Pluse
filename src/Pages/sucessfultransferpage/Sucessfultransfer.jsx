@@ -1,6 +1,6 @@
 import React from 'react';
 import "./Sucessfultransfer.css"
-import Mark from "../../assets/goodmark.svg"
+import Mark from "../../../src/assets/GOODMARK.svg"
 
 const Sucessfultransfer = () => {
   return (
