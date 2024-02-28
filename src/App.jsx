@@ -1,9 +1,9 @@
 import "./App.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import UserLogin from "./pages/user-login-page/UserLogin";
-import ForgotPassword from "./pages/forgot-password-page/ForgotPassword";
-import EmailValidation from "./pages/emailvalidation/EmailValidation";
-import Createmember from "./Pages/creatememember/Createmember";
+import UserLogin from "../src/Pages/user-login-page/UserLogin";
+import ForgotPassword from "../src/Pages/forgot-password-page/ForgotPassword";
+import EmailValidation from "../src/Pages/emailvalidation/EmailValidation";
+import Createmember from "../src/Pages/creatememember/Createmember";
 import DecisionPage from "../src/Pages/decisionpage/DecisionReset"
 import Landingpage from "../src/Pages/landing-page/HomeScreen/HomeScreen"
 import Failedtransfer from "../src/Pages/failedtransfer/Failedtransfer"
