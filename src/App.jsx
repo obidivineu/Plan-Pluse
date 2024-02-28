@@ -11,53 +11,46 @@ import Successful from "../src/Pages/sucessfullpassword/Sucessfulpassword"
 import Successfultransfer from "../src/Pages/sucessfultransferpage/Sucessfultransfer"
 
 //creating my router
-const router = createBrowserRouter([
-  {
-    path: "/user-login",
-    element: <UserLogin />,
-  },
-  {
-    path: "/failed",
-    element: <Failedtransfer/>,
-  },
-  {
-    path: "/successful",
-    element: <Successful/>,
-  },
-  {
-    path: "/successtransfer",
-    element: <Successfultransfer />,
-  },
-  {
-    path: "/",
-    element: <Landingpage />,
-  },
-  {
-    path: "/forgot-password",
-    element: <ForgotPassword />,
-  },
+// const router = createBrowserRouter([
+
+//   {
+//     path: "/failed",
+//     element: <Failedtransfer/>,
+//   },
+//   {
+//     path: "/successful",
+//     element: <Successful/>,
+//   },
+//   {
+//     path: "/successtransfer",
+//     element: <Successfultransfer />,
+//   },
+
+//   {
+//     path: "/forgot-password",
+//     element: <ForgotPassword />,
+//   },
 
 
-  {
-    path: "/email-validation",
-    element: <EmailValidation />,
-  },
-  {
-    path: "/decision-page",
-    element: <DecisionPage />,
-  },
+//   {
+//     path: "/email-validation",
+//     element: <EmailValidation />,
+//   },
+//   {
+//     path: "/decision-page",
+//     element: <DecisionPage />,
+//   },
 
-  {
-    path: "/Create-member",
-    element: <Createmember />,
-  },
+//   {
+//     path: "/Create-member",
+//     element: <Createmember />,
+//   },
 
-]);
+// ]);
 
 const App = () => {
   return (
     <>
-      <RouterProvider router={router} />
 <HashRouter>
   <Routes>
     <Route path='/' element={<Landingpage/>}/>
