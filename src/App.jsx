@@ -1,5 +1,5 @@
 import "./App.css";
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import { createBrowserRouter, HashRouter, Route, RouterProvider, Routes } from "react-router-dom";
 import UserLogin from "../src/Pages/user-login-page/UserLogin";
 import ForgotPassword from "../src/Pages/forgot-password-page/ForgotPassword";
 import EmailValidation from "../src/Pages/emailvalidation/EmailValidation";
@@ -58,6 +58,12 @@ const App = () => {
   return (
     <>
       <RouterProvider router={router} />
+<HashRouter>
+  <Routes>
+    <Route path='/' element={<Landingpage/>}/>
+    <Route path='/user-login' element={<UserLogin/>}/>
+  </Routes>
+</HashRouter>
     </>
   );
 };
