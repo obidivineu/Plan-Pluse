@@ -66,7 +66,7 @@ const UserSignup = () => {
     try {
       const response = await axios.post(url, formdata, config);
       console.log(response.data);
-      navigate("/user-login");
+      navigate("/user-dashboard");
       setChangeSigninBtn(false);
     } catch (error) {
       console.log(error.message);
@@ -114,9 +114,8 @@ const UserSignup = () => {
                 Already have an account ?
                 <span
                   className="signup-subtext-span"
-                  onClick={() => navigate("/user-dashboard")}
+                  onClick={() => navigate("/user-login")}
                 >
-                  {" "}
                   Login
                 </span>
               </div>
