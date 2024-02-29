@@ -55,6 +55,7 @@ const App = () => {
   <Routes>
     <Route path='/' element={<Landingpage/>}/>
     <Route path='/user-login' element={<UserLogin/>}/>
+     <Route path='/forgot-password' element={<ForgotPassword/>}/>
   </Routes>
 </HashRouter>
     </>
