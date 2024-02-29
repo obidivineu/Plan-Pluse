@@ -1,6 +1,6 @@
 import "./menu.css";
 import Category from "../category/Category";
-import LightandDark from "../ligtdark/LightandDark";
+import LightandDark from "../../components/lightdark/LightandDark";
 import Logout from "../logout/Logout";
 import logout from "../../assets/logout.png";
 import logoutC from "../../assets/logout-color.png";
