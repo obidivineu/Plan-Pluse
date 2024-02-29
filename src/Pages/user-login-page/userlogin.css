@@ -372,7 +372,7 @@
 
     .donthaveaccount {
         gap: 50px;
-        margin-top: -30px;
+        /* margin-top: -60px; */
         font-size: 20px;
     }
 
@@ -511,7 +511,7 @@ background-color: #FDFDF7;
 
     .donthaveaccount {
         gap: 50px;
-        margin-top: -30px;
+        /* margin-top: -30px; */
         font-size: 15px;
     }
 
@@ -604,7 +604,7 @@ background-color: #FDFDF7;
 
     .donthaveaccount {
         gap: 50px;
-        margin-top: -30px;
+        /* margin-top: -30px; */
         font-size: 15px;
     }
 
