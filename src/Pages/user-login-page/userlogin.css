@@ -322,6 +322,7 @@
     .loginbodypage {
         height: 100vh;
         width: 100%;
+        background-color: #FDFDF7;
     }
 
     .textsign {
@@ -398,6 +399,9 @@
         /* background-color: lawngreen; */
     }
 
+.loginbodypage{
+background-color: #FDFDF7;
+}
     .textsign {
         font-size: 20px;
     }
@@ -418,14 +422,14 @@
         outline: none;
         /* gap: 10px; */
         font-size: 20px;
-        margin-top: -90pc;
+        margin-bottom: -30px;
         /* margin-bottom: 30px; */
     }
 
     .donthaveaccount {
         gap: 50px;
-        margin-top: -40px;
-        font-size: 20px;
+        margin-top: 20px;
+        font-size: 15px;
     }
 
     .span-text {
@@ -689,7 +693,7 @@
     .loginbodypage {
         height: 100vh;
         width: 100%;
-        /* background-color: red; */
+        background-color: #FDFDF7;
     }
 
     .span-text {
@@ -704,7 +708,12 @@
     .textsign {
         margin-top: -20px;
         /* background-color: red; */
-        font-size: 18px;
+        font-size: 20px;
+        margin-left: 10px;
+        /* align-items: center; */
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
     }
 
     .inputDiv {

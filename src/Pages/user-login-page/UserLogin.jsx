@@ -1,9 +1,11 @@
 import "./userlogin.css";
 import LOG from '../../assets/image6.png'
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import { createBrowserRouter, RouterProvider, useNavigate } from "react-router-dom";
 
 
 const UserLogin = () => {
+ const nav = useNavigate()
+  
   return (
     <div className="loginbodypage">
       <div className="loginpage">
@@ -20,11 +22,11 @@ const UserLogin = () => {
             <input type="checkbox" className="checkbox" />
           Remember Password
                 </div>
-          <div className="forgotpass">Forgot Password ?</div>
+          <div className="forgotpass"onClick={() =>{ nav('/forgot-password')}}>Forgot Password ?</div>
         </div>
 
         <center><button className="loginbutton">LOGIN</button></center>
-        <p className="donthaveaccount">Don’t have an account?<span style={{ color: "#2400FF", cursor: "pointer" }}>Create One Here</span></p>
+        <p className="donthaveaccount">Don’t have an account?<span style={{ color: "#2400FF", cursor: "pointer"}}>Create One Here</span></p>
       </div>
       <div className="imagepage">
         <p className="welcomtext">WELCOME</p>
