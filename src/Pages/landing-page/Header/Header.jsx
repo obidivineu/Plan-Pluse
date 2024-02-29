@@ -24,7 +24,7 @@ const Header = () => {
       <div className="started">
         <button className="get" onClick={()=>{
           nav('/user-login')
-        }}>GET STARTED</button>
+        }}>LOGIN</button>
       </div>
     </div>
 

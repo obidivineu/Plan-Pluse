@@ -9,7 +9,7 @@ const UserLogin = () => {
   return (
     <div className="loginbodypage">
       <div className="loginpage">
-        <img src={LOG} className="image" />
+        <img src={LOG} className="image" onClick={()=>{ nav('/home-screen')}}/>
         <p className="textsign">Sign in by entering the information below</p>
         <div className="inputDiv">
           <div className="detail">
@@ -26,7 +26,7 @@ const UserLogin = () => {
         </div>
 
         <center><button className="loginbutton">LOGIN</button></center>
-        <p className="donthaveaccount">Don’t have an account?<span style={{ color: "#2400FF", cursor: "pointer"}}>Create One Here</span></p>
+        <p className="donthaveaccount">Don’t have an account?<span style={{ color: "#2400FF", cursor: "pointer"}} onClick={() =>{ nav("/user-signup")}}>Create One Here</span></p>
       </div>
       <div className="imagepage">
         <p className="welcomtext">WELCOME</p>
