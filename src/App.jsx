@@ -9,44 +9,10 @@ import Landingpage from "../src/Pages/landing-page/HomeScreen/HomeScreen"
 import Failedtransfer from "../src/Pages/failedtransfer/Failedtransfer"
 import Successful from "../src/Pages/sucessfullpassword/Sucessfulpassword"
 import Successfultransfer from "../src/Pages/sucessfultransferpage/Sucessfultransfer"
-
-//creating my router
-// const router = createBrowserRouter([
-
-//   {
-//     path: "/failed",
-//     element: <Failedtransfer/>,
-//   },
-//   {
-//     path: "/successful",
-//     element: <Successful/>,
-//   },
-//   {
-//     path: "/successtransfer",
-//     element: <Successfultransfer />,
-//   },
-
-//   {
-//     path: "/forgot-password",
-//     element: <ForgotPassword />,
-//   },
+import HomeScreen from "../src/Pages/landing-page/HomeScreen/HomeScreen";
+import UserSignup from "../src/Pages/user-signup-page/UserSignup"
 
 
-//   {
-//     path: "/email-validation",
-//     element: <EmailValidation />,
-//   },
-//   {
-//     path: "/decision-page",
-//     element: <DecisionPage />,
-//   },
-
-//   {
-//     path: "/Create-member",
-//     element: <Createmember />,
-//   },
-
-// ]);
 
 const App = () => {
   return (
@@ -56,6 +22,8 @@ const App = () => {
     <Route path='/' element={<Landingpage/>}/>
     <Route path='/user-login' element={<UserLogin/>}/>
      <Route path='/forgot-password' element={<ForgotPassword/>}/>
+     <Route path='/home-screen' element={<HomeScreen/>}/>
+     <Route path='/user-signup' element={<UserSignup/>}/>
   </Routes>
 </HashRouter>
     </>
