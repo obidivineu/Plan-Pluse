@@ -146,6 +146,16 @@ const Landingpage = () => {
         </div>
         <div className="secondfooter">
 {/* <img className="mapping" src={MAP}/> */}
+<iframe
+       src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d991.1462533900512!2d3.3299647695040933!3d6.447291532219994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b897a59a1bbad%3A0x2f3f02b5749fc0c7!2s167%20Muyibi%20St%2C%20Apapa%2C%20Lagos%20102103%2C%20Lagos!5e0!3m2!1sen!2sng!4v1709043668112!5m2!1sen!2sng"
+        width='100%'
+        height='100%'
+        frameBorder='0'
+        style={{ border: 0 }}
+        allowFullScreen
+        title='Google Map'
+        className="map"
+      ></iframe>
         </div>
       </div>
      

@@ -4,13 +4,12 @@ import { createBrowserRouter, RouterProvider, useNavigate } from "react-router-d
 
 
 const UserLogin = () => {
- const nav = useNavigate()
-  
+  const nav = useNavigate()
+
   return (
     <div className="loginbodypage">
       <div className="loginpage">
-    
-        <img src={LOG} className="image" onClick={()=>{ nav('/home-screen')}}/>
+        <img src={LOG} className="image" onClick={() => { nav('/home-screen') }} />
         <p className="textsign">Sign in by entering the information below</p>
         <div className="inputDiv">
           <div className="detail">
@@ -21,13 +20,13 @@ const UserLogin = () => {
           </div>
           <div className="remeber-text">
             <input type="checkbox" className="checkbox" />
-          Remember Password
-                </div>
-          <div className="forgotpass"onClick={() =>{ nav('/forgot-password')}}>Forgot Password ?</div>
+            Remember Password
+          </div>
+          <div className="forgotpass" onClick={() => { nav('/forgot-password') }}>Forgot Password ?</div>
         </div>
 
         <center><button className="loginbutton">LOGIN</button></center>
-        <p className="donthaveaccount">Don’t have an account?<span style={{ color: "#2400FF", cursor: "pointer"}} onClick={() =>{ nav("/user-signup")}}>Create One Here</span></p>
+        <p className="donthaveaccount">Don’t have an account?<span style={{ color: "#2400FF", cursor: "pointer" }} onClick={() => { nav("/user-signup") }}>Create One Here</span></p>
       </div>
       <div className="imagepage">
         <p className="welcomtext">WELCOME</p>
