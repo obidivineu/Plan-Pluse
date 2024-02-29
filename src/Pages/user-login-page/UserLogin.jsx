@@ -9,7 +9,7 @@ const UserLogin = () => {
   return (
     <div className="loginbodypage">
       <div className="loginpage">
-      iuykdiujd
+    
         <img src={LOG} className="image" onClick={()=>{ nav('/home-screen')}}/>
         <p className="textsign">Sign in by entering the information below</p>
         <div className="inputDiv">
