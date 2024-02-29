@@ -114,7 +114,7 @@ const UserSignup = () => {
                 Already have an account ?
                 <span
                   className="signup-subtext-span"
-                  onClick={() => navigate("/user-login")}
+                  onClick={() => navigate("/user-dashboard")}
                 >
                   {" "}
                   Login
