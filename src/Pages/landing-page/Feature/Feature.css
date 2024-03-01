@@ -97,9 +97,12 @@
     display: flex;
     /* text-align: end; */
     text-align: center;
-    font-size: 10px;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
 
 .textHolder {
     display: flex;
@@ -110,12 +113,15 @@
     height: 15%;
     background-color: #EED8D9;
     text-align: center;
-    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
     
 }
 
 .pulsetrack {
     text-align: center;
-    font-size: 10px;
+    /* font-size: 15px; */
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }

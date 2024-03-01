@@ -3,7 +3,7 @@ import Header from '../Header/Header';
 import Landingpage from '../LandingPage/Landingpage';
 import Hero from '../Hero/Hero';
 import Feature from '../Feature/Feature';
-
+import "./homescreen.css"
 const HomeScreen = () => {
   return (
     <>
