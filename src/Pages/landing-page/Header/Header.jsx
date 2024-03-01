@@ -15,16 +15,15 @@ const Header = () => {
         <img src={logo} alt="logo" />
       </div>
       <div className="headertext">
-        <p className="home">HOME</p>
-        <p>ABOUT</p>
-        <p>FEATURES</p>
-        <p>PRICING</p>
-        <p>SERVICE</p>
+        <p className="home"  style={{ fontSize: "15px"}}>HOME</p>
+        <p className="home"  style={{ fontSize: "15px"}}>ABOUT</p>
+        <p className="home"  style={{ fontSize: "15px"}}>FEATURES</p>
+        <p className="home"  style={{ fontSize: "15px"}}>PRICING</p>
+        <p className="home"  style={{ fontSize: "15px"}}>SERVICE</p>
       </div>
       <div className="started">
         <button className="get" onClick={()=>{
-          nav('/user-login')
-        }}>LOGIN</button>
+          nav('/user-login')}} style={{ fontSize: "15px"}}>LOGIN</button>
       </div>
     </div>
 
