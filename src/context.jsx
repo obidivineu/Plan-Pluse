@@ -13,6 +13,7 @@ export const AppProvider = ({ children }) => {
   const [iconTextTog, setIconTextTog] = useState(false);
   const [isLogOut, setIsLogOut] = useState(false);
   const [ldMode, setLdMode] = useState(false);
+  const [emailStore, setEmailStore] = useState("");
   return (
     <AppContext.Provider
       value={{
@@ -32,6 +33,8 @@ export const AppProvider = ({ children }) => {
         setIsLogOut,
         ldMode,
         setLdMode,
+        emailStore,
+        setEmailStore,
       }}
     >
       {children}

@@ -72,8 +72,6 @@ const UserSignup = () => {
       console.log(error.message);
       setChangeSigninBtn(false);
     }
-
-    console.log("hello");
   };
 
   const handleAllClick = () => {
