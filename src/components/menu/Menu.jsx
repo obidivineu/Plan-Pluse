@@ -8,8 +8,10 @@ import { useContext, useEffect } from "react";
 import { data } from "../../localdata";
 import userColor from "../../assets/user-color.png";
 import { AppContext } from "../../context";
+import { useNavigate } from "react-router";
 
 const Menu = () => {
+  const navigate = useNavigate();
   const {
     datas,
     setDatas,
@@ -35,6 +37,7 @@ const Menu = () => {
   };
   const handleLogout = () => {
     setIsLogOut(true);
+    navigate("/user-login");
   };
 
   useEffect(() => {
