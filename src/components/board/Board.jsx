@@ -2,7 +2,7 @@ import "./board.css";
 import Dashboard from "../dashboard/Dashboard";
 import Allmember from "../allmember/Allmember";
 import Account from "../account/Account";
-import Batchupload from "../../pages/batchupload/Batchupload";
+import Batchupload from "../../Pages/batchupload/Batchupload";
 import { AppContext } from "../../context";
 import { useContext } from "react";
 
