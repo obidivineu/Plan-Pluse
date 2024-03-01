@@ -3,6 +3,7 @@ import hero from "../../../assets/database.svg"
 import "./Hero.css"
 
 const Hero = () => {
+  
   return (
     
           <div className="hero">

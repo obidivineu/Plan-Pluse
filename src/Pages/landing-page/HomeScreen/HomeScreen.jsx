@@ -6,12 +6,14 @@ import Feature from '../Feature/Feature';
 
 const HomeScreen = () => {
   return (
-    <div>
+    <>
+    <div className='overall'>
       <Header/>
       <Hero/>
       <Feature/>
       <Landingpage/>
     </div>
+    </>
   );
 }
 
