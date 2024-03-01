@@ -20,7 +20,7 @@ const App = () => {
 <HashRouter>
   <Routes>
     <Route path='/' element={<Landingpage/>}/>
-    <Route path='/user-login' element={<UserLogin/>}/>
+    <Route path='/user-login' element={<UserLogin/>}/> 
      <Route path='/forgot-password' element={<ForgotPassword/>}/>
      <Route path='/home-screen' element={<HomeScreen/>}/>
      <Route path='/user-signup' element={<UserSignup/>}/>

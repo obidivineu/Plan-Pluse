@@ -1,6 +1,6 @@
 import React from 'react';
 import "./Failedtransfer.css"
-import Mark from "../../../src/assets/BADMARK.svg"
+import Mark from "../../assets/badmark.svg"
 
 const Failedtransfer = () => {
   return (

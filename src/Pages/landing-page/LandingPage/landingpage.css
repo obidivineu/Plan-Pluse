@@ -239,7 +239,7 @@
 .paying {
     width: 75%;
     height: 60%;
-    background-color:  #ff595e;
+    background: linear-gradient(rgba(255, 255, 255, 0.479),  red);
     border: none;
     color: #fdfdfd;
     border-radius: 3px;

@@ -30,11 +30,14 @@
     justify-content: center;
     align-items: center; width: 25%;
     /* height: 45%; */
-    background-color:#FF595e ;
+    background-color:#fdc2c4 ;
     border-radius: 3px;
     border: none;
     box-shadow: 3px 7px 7px 3px rgb(224, 224, 224);
     color: #fdfdfd;
+}
+.transfersent:hover{
+   background-color:#ff595e ; 
 }
 .transferrin{
     width: 100%;
